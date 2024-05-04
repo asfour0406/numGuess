@@ -17,6 +17,7 @@ public class Main {
                 int guess = scanner.nextInt();
                 if(guess == randomInt1){
                     System.out.println("You guessed correctly!");
+                    game = false;
                 }else if((randomInt1 +10 > guess && guess > randomInt1 -10 )){
                     System.out.println("HOT");
                 }else{
